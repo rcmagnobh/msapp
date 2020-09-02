@@ -1,6 +1,9 @@
 # msapp
 Projeto de Estudo 
 
+Ferramenta utilizada para o projeto
+STS 
+
 Tecnologia utilizadas 
 spring boot
 angula
