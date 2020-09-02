@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
-import com.exemple.ms.model.Status;
-import com.exemple.ms.repository.statusRepository;
+import com.example.ms.model.Status;
+import com.example.ms.repository.StatusRepository;
 
 
 
@@ -21,7 +21,7 @@ public class statusResource {
 	//@Autowired(required=true)
 	//@Repository
 	@Autowired
-	private statusRepository statusRepository;
+	private StatusRepository statusRepository;
 	
 	@GetMapping
 	public List<Status> listar(){
